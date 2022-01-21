@@ -1,0 +1,130 @@
+.offers{
+    background-color: var(--title);
+    padding: 15px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background-color: var(--white);
+    padding: 8px 0 8px;
+    display: flex;
+    justify-content: center;
+}
+.subtitle-header{
+    color: var(--white);
+    font-size: 16px;
+}
+.title-header{
+    font-size: 24px;
+}
+/*Principal*/
+.content-img{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url(../img/wallpaper.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.title{
+    font-size: 32px;
+    padding-bottom: 19px;
+}
+.sub-title{
+    font-size: 18px;
+}
+.container-text{
+    padding: 100px;
+    color: var(--white);
+}
+.shoes-title{
+    font-size: 32px;
+}
+.shoes-subtitle{
+    font-size: 18px;
+}
+.content-text{
+    text-align: center;
+    padding-top: 58px;
+}
+.bg-cards{
+    background-color: var(--bgCard);
+    padding: 76px 25px;
+    margin: 0 10px 39px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.bg-cards:hover {
+    background-color: var(--text);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.bg-cards img:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+.flex-rows{
+    display: flex;
+    flex-direction: row;
+}
+.container-shoes{
+    padding: 100px;
+}
+.contact{
+    background-color: var(--text);
+    padding: 50px 0 20px;
+    box-shadow: 30px 20px 20px black;
+}
+.content-footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.title-footer{
+    font-size: 15px;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+.contact a{
+    color: white;
+}
+@media  screen and (max-width: 1000px) {
+    .flex-rows{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-img{
+        background-size: 200%;
+        background-attachment: scroll;
+        display: flex;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .subtitle-header{
+        font-size: 16px;
+    }
+    .title-header{
+        font-size: 28px;
+    }
+    .shoes-title{
+        font-size: 28px;
+    }
+    .sub-title{
+        font-size: 16px;
+    }
+    .shoes-subtitle{
+        font-size: 16px;
+    }
+    .container-text{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
